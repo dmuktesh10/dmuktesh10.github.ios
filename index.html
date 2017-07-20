@@ -1,6 +1,8 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -23,35 +25,27 @@
     <h1 class='welcome-note text-center first'></h1>
   </div>
   <div class='main-div' id='skills-div'>
-    <div class='expertise-class' id='expterties-id'>
-      <h1 class="text-center expertise-text" id='my-expertise'>My Expertise</h1>
-      <h3 class="text-center expertise-text">I've got chops in all the roads of software engineering</h3>
-      <div class='container'>
-        <div class='row logo-row'>
-          <div class='col-md-3'>
-            <img class='skills img-responsive' src='js.png'>
-          </div>
-          <div class='col-md-3'>
-            <img class='skills img-responsive' src='html5.png'>
-          </div>
-          <div class='col-md-3'>
-            <img class='skills img-responsive' src='css3.png'>
-          </div>
-          <div class='col-md-3'>
-            <img class='skills img-responsive' src='ruby.png'>
-          </div>
-        </div>
-        <div class='row skill-brief-row'>
-          <div class='col-md-3'>
+    <div class='expertise-class'>
+      <h1 class="text-center" id='my-expertise'>My Expertise</h1>
+      <h3 class="text-center">I've got chops in all the roads of software engineering</h3>
+      <div class='container '>
+        <div class='row logo-row '>
+          <div class='col-md-3 project-div'>
+            <img class='skills image-responsive' src='js.png'>
             <p class='text-center expertise-text skill-text'>I know Javascript</p>
           </div>
-          <div class='col-md-3'>
+          <div class='col-md-3 project-div'>
+            <img class='skills image-responsive' src='html5.png'>
             <p class='text-center expertise-text skill-text'>I know the html5</p>
+
           </div>
-          <div class='col-md-3'>
+          <div class='col-md-3 project-div'>
+            <img class='skills image-responsive' src='css3.png'>
             <p class='text-center expertise-text skill-text'>I know the css3</p>
+
           </div>
-          <div class='col-md-3'>
+          <div class='col-md-3 project-div'>
+            <img class='skills image-responsive' src='ruby.png'>
             <p class='text-center expertise-text skill-text'>I know the ruby</p>
           </div>
         </div>
@@ -59,26 +53,82 @@
       </div>
     </div>
   </div>
-  <div class='main-div' id='projcets-dev-1'>
-    <h1 class='text-center'id='project-heading'>My Work</h1>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-6'>
-          <a href='https://codepen.io/dmuktesh10/pen/mwBRed'><img class='img-responsive project-image' src='codepen.png'></a>
+  <div class='main-div' id='projects-div-1'>
+    <h1 class='text-center' id='project-heading'>My Work</h1>
+
+    <div class='container project-container'>
+      <div class="row">
+        <div class='col-md-6 display-flex'>
+          <a href='https://codepen.io/dmuktesh10/pen/mwBRed'><img class='image-responsive img-thumbnail project-image' src='codepen.png'></a>
         </div>
-        <div class='col-md-6'>
+        <div class='col-md-6 display-flex'>
+          <p class='text-center project-description'> This is tribute page. It was created as assignment for freecodecamp. This page is tributed to the World Chess Champion Mr. Vishwanathan Anand, who represent the India in the game of chess. Simple HTML and CSS is used here.
+          </p>
         </div>
       </div>
-      <div class='row'>
-        <div class='col-md-6'>
-          <a href='https://schloop.co'><img class='img-responsive project-image' src='Schloop.png'></a>
+    </div>
+    <div class='container project-container'>
+      <div class="row">
+        <div class='col-md-6 display-flex'>
+          <a href='http://schloop.co'><img class='image-responsive img-thumbnail project-image' src='Schloop.png'></a>
         </div>
-        <div class='col-md-6'>
+        <div class='col-md-6 display-flex'>
+          <p class='text-center project-description'> This was social networking web application.The intended users are parents and teachers. Teacher and parent can interact with this via android and ios app.Admin can access only via web browser</p>
+        </div>
+      </div>
+    </div>
+    <div class='container project-container'>
+      <div class="row">
+        <div class='col-md-6 display-flex'>
+          <a href='https://dev-employer.goodmoonrunning.com'><img class='image-responsive img-thumbnail project-image' src='gmr.png'></a>
+        </div>
+        <div class='col-md-6 display-flex'>
+          <p class='text-center project-description'> This is employee benefit projecess automation application.Tools used are HTML, CSS, Javascript, Ruby</p>
         </div>
       </div>
     </div>
   </div>
-  <div class='main-div' id='contacts-details'></div>
+  <div class='main-div' id='contacts-details'>
+    <br><br>
+    <div class='container'>
+
+      <div class='row'>
+        <div class='col-md-3'></div>
+        <div class='col-md-6 portfolio-icon'>
+           <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+           <i class="fa fa-codepen fa-5x" aria-hidden="true"></i>
+           <i class="fa fa-facebook fa-5x" aria-hidden="true"></i>
+        </div>
+        <div class='col-md-3'></div>
+      </div>
+
+      <div class='row'>
+        <div class='col-md-3'></div>
+        <div class='col-md-6 portfolio-icon'>
+          <i class="fa fa-stack-overflow fa-5x" aria-hidden="true"></i>
+          <i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin fa-5x" aria-hidden="true"></i>
+        </div>
+        <div class='col-md-3'></div>
+      </div>
+
+      <div class='row'>
+        <div class='col-md-3'></div>
+        <div class='col-md-6 portfolio-icon'>
+           <i class="fa fa-medium fa-5x" aria-hidden="true"></i>
+           <i class="fa fa-quora fa-5x" aria-hidden="true"></i>
+           <i class="fa fa-reddit fa-5x" aria-hidden="true"></i>
+        </div>
+        <div class='col-md-3'></div>
+      </div>
+
+      <div class='row'>
+        <div class='col-md-12 portfolio-icon'>
+           <i class="fa fa-twitter fa-5x" aria-hidden="true"></i>
+        </div>
+      </div>
+  </div>
+  </div>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 
 $(function(){
-    $('.main-div').css({ height: $(window).innerHeight() });
+  //  debugger;
+  //  $('.main-div').css({ height: $(window).outerHeight() });
 });
 $(function(){
   $('.first').typed({
