@@ -1,3 +1,6 @@
+/* 1275 = 100*/
+/* n = ? */
+/* ? = 100 * n/1275 */
 .main-div {
   width: 100%;
   background-size: cover;
@@ -26,7 +29,7 @@
   font-size: 60;
   margin: 0;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 1.10864745011%;
 }
 
 .portfolio-icon{
@@ -50,10 +53,10 @@
   margin: 0;
 }
 .project-container{
-  margin-bottom: 30px;
+  margin-bottom: 1.66297117517%;
 }
 .project-description {
-  font-size: 18px;
+  font-size: 1.3em;
   color: white;
 }
 
@@ -64,8 +67,8 @@
 }
 
 .project-image{
-  height: 150px;
-  width: 300px;
+  height: 20.7647058824%;
+  width: 40.5294117647%;
 }
 
 
@@ -79,26 +82,59 @@
 }
 .expertise-class {
   color: white;
+  max-height: inherit
 }
 #my-expertise {
-  margin: 0;
-  font-size: 60px;
+  margin: 0%;
+  font-size: 5em;
 }
 .logo-row {
-  padding-top: 60px
+  padding-top: 3.32594235033%;
+  max-height: inherit
+
 }
 .project-div{
   display: flex;
   justify-content: center;
   align-items: center;
+  max-height: inherit
+
 }
 
 .skills {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  height: 150px;
+  height: 25.31485587583%;
+  max-height: inherit
+
 }
 .skill-text {
-  font-size: 20px
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+
+#contact-details{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+#contact-container{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: space-between;
+  height: 100%;
+  max-height: inherit
+
 }
