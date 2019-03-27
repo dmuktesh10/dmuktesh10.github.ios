@@ -16,14 +16,41 @@
   /* temprory attributes */
   background-color: #616161;
 
-  height: 100%;
   width: 30%;
+  float: left;
 }
 
 #right-div{
   /* temprory attributes */
   background-color: blue;
 
-  height: 100%;
   width: 70%;
+  float: right;
+}
+
+.column-div{
+  height: 100%;
+}
+
+#title-div{
+  /* temprory attributes */
+  background-color: aqua;
+
+  height: 30%;
+
+}
+
+#name-heading{
+  font-size: 70px;
+  text-align: center;
+}
+
+#profile-pic{
+  height: 100%;
+  width: 100%;
+}
+
+#profile-pic-div{
+  height: 150px;
+  width: 150px
 }
